@@ -14,7 +14,7 @@ public class Calculator {
 	int x = 10;
 	int y = 5;
 	
-	int[] nums = {1, 2, 3, 4};
+	int[] nums = {5, 15, 3, 4};
 	
 	System.out.println("Addition - " + add(x,y));
 	System.out.println("Subtraction - " + subtract(x,y));
@@ -32,9 +32,11 @@ public class Calculator {
 	private static int subtract(int x, int y) {
 		int diff = 0;
 		if (x > y) {
-			// complete the code
+			while(x != y) {
+				x = x - 1;
+				diff = diff + 1;
+			}
 		} else {
-			// complete the code
 		}
 
 		return diff;
@@ -53,9 +55,11 @@ public class Calculator {
 	private static int divide(int x, int y) {
 		int divValue = 0;
 		if (x == 0 || y == 0) {
-			// complete the code
+			divValue = 0;
 		} else {
-			// complete the code
+			while ()
+			// X = Y + Y + Y + Y + Y ...
+
 		}
 		return divValue;
 
