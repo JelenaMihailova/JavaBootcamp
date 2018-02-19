@@ -37,6 +37,7 @@ public class Calculator {
 				diff = diff + 1;
 			}
 		} else {
+
 		}
 
 		return diff;
